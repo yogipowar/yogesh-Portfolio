@@ -181,7 +181,7 @@ img {
     gap: clamp(16px, 4vw, 76px);
     margin: 0;
     font-family: "Inter", sans-serif;
-    font-size: clamp(5rem, 9.5vw, 14.7rem);
+    font-size: clamp(5rem, 10.5vw, 14.7rem);
     font-weight: 900;
     line-height: 0.76;
     letter-spacing: 0;
