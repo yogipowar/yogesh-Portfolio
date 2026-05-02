@@ -69,6 +69,10 @@ img {
     transition: padding 220ms ease, border-color 220ms ease, backdrop-filter 220ms ease;
 }
 
+.logo {
+    width: 70px;
+}
+
 .site-header.is-scrolled {
     width: min(100% - 48px, 1340px);
     padding: 14px 0;
@@ -795,9 +799,10 @@ img {
 }
 
 .footer-shell {
-    display: grid;
-    grid-template-columns: 120px minmax(0, 1fr) auto;
+    display: flex;
+    /* grid-template-columns: 120px minmax(0, 1fr) auto; */
     gap: 28px;
+    justify-content: space-between;
     align-items: center;
     padding-top: 28px;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
